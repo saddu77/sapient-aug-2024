@@ -1,0 +1,87 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+body{
+  background-color: lightseagreen;
+  color: white;
+}
+#login-div,#signup-div{
+  border: 2px solid white;
+  width: fit-content;
+  text-align: center;
+  padding: 20px;
+  margin: auto;
+  margin-top: 15%;
+}
+
+#link{
+  color: white;
+}
+
+ul li{
+  display: inline;
+  padding: 40px;  
+  margin: auto;
+  font-size: larger;
+}
+
+.home-page {
+  background-image: url('https://example.com/your-background-image.jpg'); /* Replace with your background image URL */
+  background-size: cover;
+  background-position: center;
+  color: white;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+#users-table,tr,td,th{
+  border: 2px solid white;
+  width: 40%;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  padding:30px;
+}
