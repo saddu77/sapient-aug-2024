@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    function getResult(){
+        var percentage = document.getElementById("percentage").value;        
+        if(percentage >= 85 && percentage <= 100){
+            alert("FCD!!!");
+        } else if(percentage >= 60 && percentage < 85){
+            alert("First Class");
+        } else if( percentage >= 35 && percentage < 60){
+            alert("Pass Class");
+        }  else if( percentage >= 0 && percentage < 35){
+            alert("Fail class");
+        } else{
+            alert("Percentage should be in between 0 and 100");
+        }
+    }
+</script>
+<body>
+    Enter Percentage: <input type="number" id="percentage" />
+    <button onclick="getResult()">Result</button>
+</body>
+</html>
